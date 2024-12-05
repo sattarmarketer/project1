@@ -1,0 +1,182 @@
+#navbar{
+
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background:rgba(0, 0, 0, 0.349);
+    position: fixed;
+    z-index: 1;
+    
+  
+}
+#body img{
+  position: absolute;
+}
+
+#piza{
+
+
+    margin-top: 27%;
+    margin-left: 34%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 200px;
+    font-family: Chiller;
+    font-weight: bolder;
+}
+body{
+
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(75, 9, 9) 100.3%);
+    
+}
+#h1{
+
+    font-family: Chiller;
+    margin-left: 15px;
+    font-size: 40px;
+    color: rgb(167, 167, 167);
+}
+
+#ul{
+
+    display: flex;
+    list-style: none;
+    margin-top: 12px;
+
+
+
+}
+
+#ul li{
+
+
+    margin-left: 40px;
+}
+
+*{
+
+    margin: 0;
+}
+
+#ul a{
+
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    text-shadow: 2px 3px 4px rgb(16, 62, 80);;
+    font-weight: bolder;
+
+}
+
+#btn{
+
+    width: 100px;
+    background-color: black;
+    height: 30px;
+    color: white;
+    margin-left: 40%;
+    margin-top: 7px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px white;
+
+}
+
+#body img{
+
+
+    width: 100%;
+    height: 100vh;
+}
+
+.c{
+
+
+    width: 250px;
+    height: 260px;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    text-align: center;
+    border: 2px solid rgb(116, 44, 44);
+    transition: 0.5s;
+    
+}
+#card{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+.he{
+
+    
+    font-family: Chiller;
+    font-size: 100px;
+    transition: 0.5s;
+    text-shadow: 5px 5px 10px rgb(34, 7, 7)  ;
+    color: white;
+}
+
+.he:hover{
+
+text-shadow: 20px 20px 10px red  ;
+
+
+}
+.c  img{
+
+
+
+    width: 250px;
+    height: 160PX;
+}
+
+.q{
+
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    margin-top: 30px;
+    font-weight: bolder;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.d-block{
+
+
+    height: 400px;
+}
+
+.c:hover{
+
+transform: rotate(16deg);
+box-shadow: 3px 4px 10px red;
+
+
+}
+
+.about{
+
+color: white;
+    display: flex;
+
+}
+
+.us{
+
+
+    width: 50%;
+}
+
+.us img {
+
+
+    width: 100%;
+}
